@@ -8,7 +8,7 @@
   "author": "Lossless GmbH",
   "license": "MIT",
   "scripts": {
-    "test": "(tstest test/ --web)",
+    "test": "(parcel serve test/index.html)",
     "build": "(tsbuild --web)",
     "format": "(gitzone format)"
   },
@@ -17,8 +17,15 @@
     "@gitzone/tstest": "^1.0.15",
     "@pushrocks/tapbundle": "^3.0.7",
     "@types/node": "^10.11.7",
+    "parcel-bundler": "^1.11.0",
     "tslint": "^5.11.0",
     "tslint-config-prettier": "^1.15.0"
   },
-  "dependencies": {}
+  "dependencies": {
+    "@pushrocks/smartdelay": "^2.0.2",
+    "@pushrocks/smartrx": "^2.0.3"
+  },
+  "browserslist": [
+    "last 1 version"
+  ]
 }
