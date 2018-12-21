@@ -8,7 +8,7 @@
   "author": "Lossless GmbH",
   "license": "MIT",
   "scripts": {
-    "test": "(parcel serve test/index.html)",
+    "test": "(parcel build test/index.html --out-dir ./test/dist)",
     "build": "(tsbuild --web)",
     "format": "(gitzone format)"
   },
