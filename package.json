@@ -1,6 +1,6 @@
 {
   "name": "@pushrocks/webdetector",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "private": false,
   "description": "detect different environments within the browser",
   "main": "dist/index.js",
